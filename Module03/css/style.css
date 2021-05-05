@@ -1,0 +1,135 @@
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/**** Nav Bar Styling ****/
+.nav-item{
+	text-align: center;
+}
+.nav-item:hover{
+	color: #000;
+}
+.navbar-dark, .navbar-nav, .nav-link{
+	color: red;
+}
+
+.bg-dark {
+	background-color: #50799E;
+}                 
+.navbar-toggler-icon:hover{
+    color: #fff;
+	}           
+/**** Nav Bar Styling ****/
+
+
+h1{
+    margin-top: 50px;
+	font-size: 1.75em;
+}
+
+#main-content{
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
+	max-width: none;
+}
+
+section {
+	background-color: #9FCB3C;
+	border: 1px solid black;
+	position: relative;
+}
+
+.menuName {
+
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+
+	padding-left: 20px; 
+	padding-right: 20px;
+	padding-top:10px; 
+	padding-bottom: 10px;
+
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: medium;
+}
+
+.topLink{
+	border: 0.5px solid #000;
+	text-align: center;
+	position: relative;
+	bottom: -1px;
+	left: -11px;
+	background-color: #466B8D;
+		font-weight: 100;
+}
+
+a:-webkit-any-link{
+	text-decoration: none;
+	color: #8BB1D3;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+#rice{
+    background-color: #DFEE2A;
+}
+
+#noodle{
+    background-color: #FFC78C;
+}
+
+#soup{
+    background-color: #A8F3F0;
+}
+
+.menuDetails{
+	float: right;
+    padding: 20px;
+    
+   
+}
+
+/* Simple Responsive Framework. */
+.col {
+	width: 100%;
+	max-width: none;
+	float: left;
+
+}
+
+/**************** X-Large Devices Only ********************/
+@media (min-width: 1200px) {
+
+}	
+
+/**************** Large Devices Only ********************/
+@media (min-width: 992px) {
+
+}
+
+/**************** Medium Devices Only ********************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/**************** Small Devices Only ********************/
+@media (max-width: 767px) {
+
+}
+
+/**************** X-Small Devices Only ********************/
+@media (max-width: 575px){
+
+}	
+
+
+
