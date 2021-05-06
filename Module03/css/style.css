@@ -94,16 +94,14 @@ a:-webkit-any-link{
 .menuDetails{
 	float: right;
     padding: 20px;
-    
-   
 }
 
-/* Simple Responsive Framework. */
+
+/**************** Simple Responsive Framework. ********************/
 .col {
 	width: 100%;
 	max-width: none;
 	float: left;
-
 }
 
 /**************** X-Large Devices Only ********************/
