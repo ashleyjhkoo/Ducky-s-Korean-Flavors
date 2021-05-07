@@ -10,7 +10,7 @@ html{
 
 /**** Nav Bar Styling ****/
 .nav-item{
-/*	text-align: center;*/
+	text-align: center;
 }
 .nav-item:hover{
 	color: #000;
