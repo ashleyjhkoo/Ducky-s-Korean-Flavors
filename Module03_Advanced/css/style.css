@@ -1,39 +1,41 @@
 
-*{
+* {
 	box-sizing: border-box;
 }
 
-html{
+html {
 
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 /**** Nav Bar Styling ****/
-.nav-item{
-	text-align: center;
-}
-.nav-item:hover{
-	color: #000;
-}
-.navbar-dark, .navbar-nav, .nav-link{
-	color: red;
+
+
+.navbar-dark .navbar-toggler span.navbar-toggler-icon:hover {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(70,107,141, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.bg-dark {
-	background-color: #50799E;
-}                 
-.navbar-toggler-icon:hover{
-    color: #fff;
-	}           
+
+.navbar-dark .navbar-toggler:hover{
+		border: 1px solid transparent;
+	    border-color: rgba(70,107,141, 1);
+}
+.navbar-dark .navbar-toggler:focus, .navbar-dark .navbar-togger:active, .navbar-dark .navbar-toggler:after{
+	    color: rgba(70,107,141, .1);
+	    outline: none solid transparent;
+	    outline-color: rgba(70,107,141, 1);
+		border: none solid transparent;
+	    border-color: rgba(70,107,141, 1);
+}
 /**** Nav Bar Styling ****/
 
 
-h1{
+h1 {
     margin-top: 50px;
 	font-size: 1.75em;
 }
 
-#main-content{
+#main-content {
 	padding-left: 30px;
 	padding-right: 30px;
 	width: 100%;
@@ -62,37 +64,36 @@ section {
 	font-weight: medium;
 }
 
-.topLink{
+.topLink {
 	border: 0.5px solid #000;
 	text-align: center;
 	position: relative;
 	bottom: -1px;
 	left: -11px;
 	background-color: #466B8D;
-		font-weight: 100;
+	font-weight: 100;
 }
 
-a:-webkit-any-link{
+a:-webkit-any-link {
 	text-decoration: none;
 	color: #8BB1D3;
 	font-size: 14px;
 	font-weight: 100;
 }
 
-#rice{
+#rice {
     background-color: #DFEE2A;
 }
 
-#noodle{
+#noodle {
     background-color: #FFC78C;
 }
 
-#soup{
+#soup {
     background-color: #A8F3F0;
 }
 
-.menuDetails{
-	float: right;
+.menuDetails {
     padding: 20px;
 }
 
@@ -101,7 +102,6 @@ a:-webkit-any-link{
 .col {
 	width: 100%;
 	max-width: none;
-	float: left;
 }
 
 /**************** X-Large Devices Only ********************/
