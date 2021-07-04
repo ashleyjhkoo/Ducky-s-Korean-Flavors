@@ -10,23 +10,6 @@ html {
 
 /**** Nav Bar Styling ****/
 
-.navbar{
-/*   z-index should be above .close-navbar-toggler */
-  z-index:2;
-}
-.close-navbar-toggler{
-  position:absolute;
-  top:0;
-  left:0;
-  height:100%;
-  width:100%;
-  z-index:1;
-  cursor:pointer;
-}
-.close-navbar-toggler.collapsed{
-  z-index:-1;
-}
-
 
 .navbar-dark .navbar-toggler span.navbar-toggler-icon:hover {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(70,107,141, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
