@@ -17,3 +17,13 @@
 h1 {
 	text-align: center;
 }
+a {
+    text-decoration: none;
+}
+a:-webkit-any-link {
+
+    text-decoration: none;
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+}
